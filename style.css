@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap');
+  
+*{
+        
+            
+     
+      box-sizing: border-box;
+     margin: 0;
+     padding: 0px;
+  
+  
+  } 
+body{
+    font-family: 'Inter'!important;
+}
+
+
+
+.header{
+
+width: 100%;
+height: 101px;
+background: #0d0d0d;
+background-position: center;
+position: relative;
+}
+
+
+
+body{
+background-color:rgb(243, 239, 239); 
+}
+nav{
+display: flex;
+padding: 3% 5%;
+justify-content: space-between;
+align-items: center;
+}
+nav h3{
+color: rgb(247, 248, 252);
+background-color: rgba(11, 11, 11, 0.918);
+border: 2px solid rgb(247, 242, 242);
+margin: -16px auto;
+padding: 10px;
+margin-top: -70px;
+border-radius: 20%;
+font-size: 25px;
+text-transform: uppercase;
+
+}
+.nav-menu{
+flex: 1;
+text-align: right;
+}
+.nav-menu ul li{
+list-style: none;
+display: inline-block; 
+
+margin: 0px 12px;
+position: relative;
+}
+.nav-menu ul li a{
+text-decoration: none;
+margin-top: 25px;
+color: #f6f5f9;
+font-size: 14px;
+text-transform: uppercase;
+
+
+}
+.nav-menu ul li::after{
+content: '';
+width: 0px;
+height: 5px;
+background: #f10505;
+display: block;
+margin: auto;
+position: absolute;
+bottom: -5px;
+transition: .5s;
+}
+.nav-menu ul li:hover::after{
+width: 100%;
+
+}
+
+
+      .home{
+            position: relative;
+            background-color:  #249e05;
+            width: 100%;
+            height: 600px;
+      }
+      .profile-image {
+            width: 21%;
+            position: absolute;
+            top: 17%;
+            left: 65%;
+            transform: translate(27%,-12%);
+            border: 2px solid #fcfcfff6;
+            border-radius: 55%;
+            height: 315px;
+      }
+
+           
+            .p1{
+            color: #f7f2f2;
+            margin-left: 20px;
+            font-size: 20px;
+            
+           }
+            .btn1{
+            display: flex;
+            text-decoration: none;
+            color:#e6e6ee;
+            background-color: rgb(14, 14, 15);
+            padding: 10px;
+            margin: 10px;
+            font-size: 20px;
+            border-radius:6%;
+            margin-left: 20px; 
+            border: 2px solid wheat;
+            position: relative;
+            
+            }
+            .btn1:hover{
+            background:rgb(9, 9, 230);
+            border: 2px solid #111112;
+            cursor: pointer;
+            color: rgb(248, 248, 249);
+            
+            }
+            h1{
+            color: rgb(241, 245, 245);
+            
+            margin: 10px;
+            margin-top: 50px;
+            margin-left: 20px;
+            font-size:28px;
+            }
+            
+             
+
+             .about{
+                  width: 100%;
+                  height: auto;
+                 
+                  
+                  position: relative;
+                  background: #FFFFFF;
+                  }
+                  .about img {
+                        height: 335px;
+                        width: 250px;
+                        margin-right: 50px;
+                        margin-top: 124px;
+                        border-radius: 5%;
+                        border: 2px solid rgb(186, 188, 189);
+                    }
+                  .about-text{
+                  width: 550px;
+                  margin-top: 30px;
+                  margin-bottom: 20px;
+                  
+                  }
+                  .main{
+                  width: 1130px;
+                  max-width: 95%;
+                  margin: 0 auto;
+                  display: flex;
+                  align-items: center;
+                  justify-content:space-around;
+                  }
+                  .about-text h2 {
+                        color: rgb(2, 94, 72);
+                        font-size: 51px;
+                        text-transform: uppercase;
+                        margin: 65px;
+                        font-weight: bold;
+                  }
+                  .about-text h4{
+                  color: rgb(19, 18, 18);
+                  font-size: 25px;
+                  text-transform: capitalize;
+                  margin-bottom: 25px;
+                  letter-spacing: 2px;
+                  }
+                  
+                  span{
+                  color: #1046f7;
+                  }
+                  .about-text p {
+					color: rgba(12, 12, 12, 0.8);
+					letter-spacing: 1px;
+					line-height: 28px;
+					font-size: 18px;
+					margin-bottom: 45px;
+					text-align: justify;
+				  }
+                  button{
+                  background: #f9004d;
+                  color: white;
+                  text-decoration: none;
+                  border: 2px solid transparent;
+                  font-weight: bold;
+                  padding: 13px 30px;
+                  border-radius: 30px;
+                  transition: .4s;
+                  }
+                  button:hover{
+                  background: rgb(255, 0, 0);
+                  border: 2px solid #f9004d;
+                  cursor: pointer;
+                  }
+                  .services{
+                        width: 100%;
+                        height: 899px;
+                        position: relative;
+                        background: #FFFFFF;
+                        padding:40px 0px ;
+                        
+                        }
+                        .services-header {
+                              margin: 39px 0px;
+                              font-size: 56px;
+                              font-weight: bold;
+                              text-transform: ;
+                        }
+                        h2{
+                        text-align: center;
+                        font-size: 50px;
+                        color: rgb(10, 10, 10);
+                        margin: 50px 0px;
+
+                        
+                        }
+                        
+                        .box-model{
+                        width: 400px;
+                        height: 300px;
+                        
+                        margin: 20px;
+                        padding: 10px;
+                        position: relative;
+                        background-color: whitesmoke;
+                        color: rgb(15, 15, 15);
+                        border-radius: 5%;
+                        float: left;
+
+                        }
+                        .box-model p{
+                              text-align: justify;
+                              padding: 10px;
+                        }
+                        .box-model:hover {
+                        background:#f7f3f3;
+                        box-shadow: 2px 2px 5px rgb(10, 10, 10);
+                        
+                        
+                        }
+                        
+                        h2{
+                        text-align: center;
+                        color: rgb(14, 14, 17);
+                        }
+                        .Portfolio{
+                              width: 100%;
+                              height: 887px;
+                              position: relative;
+                              background: #FFFFFF;
+                              
+                              }
+                              
+                              .heading{
+                                    font-family: 'Inter';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 28px;
+                                    
+                                    text-align: center;
+                                    margin-bottom: 10px;
+                                    letter-spacing: -0.1px;
+                                    
+                                     color: #0D0A19;
+                                    
+
+                              
+                              
+                              }
+                              .pai{
+                              font-size: 20px;
+                              text-align: center;
+                              color: #0D0A19;
+
+                              }
+                              
+                              
+                              
+                              
+                              .box img{
+                              width: 400px;
+                              height: 320px;
+                             
+                              
+                              margin: 20px;
+                              padding: 10px;
+                              position: relative;
+                              border-radius: 2%;
+                              transition: 1s;
+                              
+                              }
+                              .box img:hover{
+                              background:rgb(247, 243, 243);
+                               box-shadow: 2px 2px 30px rgb(10, 10, 10);
+                              
+                              }
+                              .footer{
+                              background-color: #0d0f0f;
+                              padding: 70px 0;
+                              height: auto;
+                              
+                              }
+                              
+                              
+                              
+                              .Contact{
+                              max-width: 1170px;
+                              margin: auto;
+                              }
+                              ul{
+                              list-style: none;
+                              }
+                              .row{
+                              display: flex;
+                              flex-wrap: wrap;
+                              }
+                              .col{
+                              width: 25%;
+                              padding: 0 15px;
+                              }
+                              .col h4{
+                              font-size: 18px;
+                              color: #c2baba;
+                              text-transform: capitalize;
+                              margin-bottom: 35px;
+                              font-weight: 500;
+                              position: relative;
+                              
+                              }
+                              .col h4::before{
+                              content: '';
+                              position: absolute;
+                              left: 0;
+                              bottom: -10px;
+                              background-color: #f70656;
+                              height: 2px;
+                              box-sizing: border-box;
+                              width: 50px;
+                              }
+                              
+                              
+                              
+                              .col ul li a {
+                                    font-size: 16px;
+                                    text-transform: capitalize;
+                                    text-decoration: none;
+                                    font-weight: 300;
+                                    color: #fff;
+                                    transition: all 0.3s ease;
+                              }
+                              .col ul li a:hover{
+                              color: #d4d3df;
+                              padding: 8px;
+                              }
+                              .social-links a{
+                              display: inline-block;
+                              height: 40px;
+                              height: 40px;
+                              color: hsl(240, 10%, 94%);
+                              background-color: #f9f9fa;
+                              padding: 10px;
+                              margin: 0 10px 0 10px;
+                              text-align: center;
+                              line-height: 20px;
+                              border-radius: 40%;
+                              color:hsl(0, 0%, 3%);
+                              }
+                              .social-links a:hover{
+                              color: #e6e6ee;
+                              background-color: #050505;
+                              }
